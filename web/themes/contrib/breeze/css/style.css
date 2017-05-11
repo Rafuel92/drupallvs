@@ -148,7 +148,7 @@ ul li {
 }
 
 a {
-  color: #1782d0;
+  color: #294061
   text-decoration: none;
 }
 
@@ -291,10 +291,6 @@ textarea {
   background: #ffffff;
 }
 
-.section-header .logo img {
-  max-height: 60px;
-}
-
 .container {
   max-width: 940px;
 }
@@ -309,9 +305,6 @@ img {
   padding-top: 20px;
 }
 
-.header-right nav {
-  padding-top: 46px;
-}
 
 .header-right .block input {
   width: 100%;
@@ -362,9 +355,9 @@ img {
 /********************* NAVIGATION  **********************/
 
 .navigation {
-  background: #1782d0;
+  /*background: #294061;*/
   border-top: none;
-  border-bottom: solid 1px #0a65a8;
+  /*border-bottom: solid 1px #0a65a8;*/
   border-radius: 4px;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -384,8 +377,8 @@ img {
   vertical-align: top;
   margin: 0px;
   padding: 0px;
-  border-right: solid 1px #48a7db;
-  border-left: solid 1px #2077b6;
+ /* border-right: solid 1px #48a7db;
+  border-left: solid 1px #2077b6;*/
   border-radius: 0;
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
@@ -434,11 +427,12 @@ img {
 .navigation nav ul>li>a:hover,
 .navigation nav ul>li>a:focus,
 .navigation nav ul>li>a.is-active {
-  background: #3ba0d8;
+  /*background: #294061;*/
+  color : #294061;
 }
 
 .navigation .dropdown-menu {
-  background: rgba(0, 0, 0, 0.7);
+
   border-radius: 0 0 5px 5px;
   -moz-border-radius: 0 0 5px 5px;
   -webkit-border-radius: 0 0 5px 5px;
@@ -531,10 +525,12 @@ main {
 
 .footer {
   margin-top: 20px;
-  margin-bottom: 20px;
   background: #f7f7f7;
-  padding-bottom: 15px;
   border: none !important;
+}
+
+.footer_fourth {
+  padding-bottom:20px;
 }
 
 .footer h2 {
@@ -545,7 +541,7 @@ main {
 }
 
 .section-footer {
-  border-top: solid 3px #1782d0;
+  border-top: solid 3px #294061;
   overflow: hidden;
 }
 
@@ -871,7 +867,7 @@ section .indented {
 }
 
 .field--name-field-tags .field__items .field--item > a {
-  background-color: #1782d0;
+  background-color: #294061;
   display: inline;
   padding: .2em .6em .3em;
   font-size: 100%;
@@ -1618,8 +1614,8 @@ a.tabledrag-handle,
 
 /* require added, region-header is it needed? */
 .region-header,
-.form-required:after {
-  background-image: url(../images/required.svg);
+.form-requi#294061:after {
+  background-image: url(../images/requi#294061.svg);
 }
 
 /* re write div line being pulled in from bootstrap */
@@ -1720,4 +1716,136 @@ li.action-links + table {
 
 [class*="ds-"] [class*="group-"] .field--name-field-image {
   margin-bottom: 15px;
+}
+
+#views-bootstrap-servizi-homepage-block-1 > .row > .col {
+  position : relative;
+}
+
+#views-bootstrap-servizi-homepage-block-1 .views-field-title {
+  background: #294061;
+  position: absolute;
+  bottom: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#views-bootstrap-servizi-homepage-block-1 .views-field-title a {
+  color : white;
+}
+
+.section-header {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.section-header .header-right {
+  padding-top : 0;
+  padding-bottom: 0 !important;
+}
+
+#block-lvs-logo-block .content img {
+  width: 200px;
+  position: absolute;
+  z-index: 9999;
+}
+
+.path-frontpage .navigation {
+  margin-bottom:0;
+}
+
+.path-frontpage main .layout-content {
+  margin-top : 0;
+}
+
+#views-bootstrap-servizi-homepage-block-1 .views-field-field-immagine-servizio img {
+  width: 400px;
+  height: 262px;
+}
+
+@media screen and (max-width: 767px) {
+
+  #views-bootstrap-servizi-homepage-block-1 .views-field-field-immagine-servizio img {
+    height : auto;
+  }
+
+}
+
+@media screen and (min-width: 767px) {
+
+
+}
+
+#views-bootstrap-image-page-1 .carousel-caption {
+  background: #294061;
+  width: 100%;
+  left : 0;
+  bottom : 0;
+}
+
+.navigation nav ul> li> a {
+  color : #294061;
+  text-transform: uppercase;
+}
+
+.menu-linebar {
+  background: #294061;
+}
+
+.carousel-caption h3 {
+  display: none;
+}
+
+.frontblocktxtslider {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .navigation nav ul > li > a:hover,
+  .navigation nav ul > li > a:focus,
+  .navigation nav ul > li > a.is-active,
+  .navigation nav ul > li > a {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    border-radius: 0;
+  }
+  .navigation nav ul > li > a.spezz {
+    border: 1px solid #294061;
+    padding-bottom: 17px;
+    border-style: inset;
+    background: #294061;
+    color: white !important;
+  }
+  .contattacifront a.btn-success {
+    padding: 16px 30px;
+    font-size: 17px;
+  }
+}
+
+.path-frontpage #block-lvslogoblock img {
+  max-height: 200px;
+}
+@media screen and (min-width: 767px) {
+  .path-frontpage #block-lvslogoblock img {
+    position: absolute;
+    z-index: 999;
+    background: white;
+    width: 250px;
+    left: 120px;
+    max-height : 1000px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #views-bootstrap-image-page-1 .img-responsive {
+    min-height: 300px !important;
+  }
+}
+
+#mainmenu .dropdown a {
+  cursor:pointer;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color : #294061;
 }

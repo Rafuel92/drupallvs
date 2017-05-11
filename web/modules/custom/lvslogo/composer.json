@@ -1,0 +1,14 @@
+{
+  "name": "drupal/lvslogo",
+  "type": "drupal-module",
+  "description": "implements logo block for lvs",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/lvslogo",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/lvslogo",
+    "source": "http://cgit.drupalcode.org/lvslogo"
+  },
+  "require": { }
+}

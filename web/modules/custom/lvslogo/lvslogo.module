@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains lvslogo.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function lvslogo_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the lvslogo module.
+    case 'help.page.lvslogo':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('implements logo block for lvs') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function lvslogo_theme() {
+  return [
+    'lvslogo' => [
+      'template' => 'lvslogo',
+      'variables' => array('data'=>NULL)
+    ],
+  ];
+}

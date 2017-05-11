@@ -23,6 +23,7 @@ regions:
   footer1: 'Footer One'
   footer2: 'Footer Two'
   footer3: 'Footer Three'
+  footer4 : 'Footer Fourth'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
 

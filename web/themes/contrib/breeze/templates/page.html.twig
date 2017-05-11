@@ -46,22 +46,23 @@
  */
 #}
 <div class="layout-container">
-	<div class="container">
-  	<header role="banner" class="section-header">
-  		<div class="row">
-		  	<div class="logo col-md-6 col-sm-6 col-xs-12">
-		    	{{ page.header }}
+	<div class="fluid-container">
+		<header role="banner" class="section-header">
+			<div class="row">
+				<div class="logo col-md-4 col-sm-4 col-xs-12">
+					{{ page.header }}
+					</div>
+				<div class="navigation-wrapper col-md-8 col-sm-8 col-xs-12">
+					<div class="navigation">
+                        {{ page.navigation }}
+					</div>
 				</div>
-				<div class="header-right col-md-6 col-sm-6 col-xs-12">
-					{{ page.header_right }}
+					<!--<div class="header-right col-md-6 col-sm-6 col-xs-12">
+						{{ page.header_right }}
+					</div>-->
 				</div>
-			</div>
-  	</header>
-  	<div class="navigation-wrapper">
-			<div class="navigation">
-				{{ page.navigation }}
-			</div>
-		</div>
+		</header>
+
 
 		{% if page.breadcrumb %}
 			{{ page.breadcrumb }}
@@ -137,5 +138,10 @@
 				</div>
 			</div>
 		</footer>
+        {% if page.footer4 %}
+			<div class="footer_fourth col-md-12 col-xs-12">
+                {{ page.footer4 }}
+			</div>
+        {% endif %}
 	</div>
 </div>{# /.layout-container #}

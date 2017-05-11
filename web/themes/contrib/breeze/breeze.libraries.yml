@@ -3,6 +3,8 @@ global-styling:
     theme:
       css/style.css: {}
       css/responsive.css: {}
+  js:
+    js/themenew.js: {}
 
 open-sans:
   css:
